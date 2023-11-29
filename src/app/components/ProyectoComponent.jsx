@@ -9,7 +9,7 @@ const ProyectoComponent = () => {
       <main className={styles.proyecto_container_container_real}>
 
         <div className={styles.proyecto_container_real}>
-          <section className='w-[100%] h-[40%]  flex justify-center items-center'>
+          <section className='w-[100%] h-[60%]  flex justify-center items-center'>
           {/* div borrado .proyecto_foto_container */}
               <video className={styles.proyecto_foto} controls autoPlay muted>
                 <source  width={"350px"} height={"800px"} src="/video1.mp4" type="video/mp4" />
