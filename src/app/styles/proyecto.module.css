@@ -1,0 +1,33 @@
+.proyecto_container_container_real {
+  margin-bottom: 10px;
+  width: 100vw;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proyecto_container_real {
+    width: 90%; 
+    height: 100%;
+    background-color: rgb(230, 228, 228);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+.proyecto_foto_container {
+  border-radius: 20px;
+  width: 97%;
+  height: 98%;
+  background-color: rgb(250, 163, 117);
+}  
+
+.proyecto_foto{
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(250, 163, 117);
+}  
+
