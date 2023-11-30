@@ -8,7 +8,7 @@
 }
 
 .proyecto_container_real {
-    width: 85%; 
+    width: 95%; 
     height: 100%;
     background-color: rgb(230, 228, 228);
     
@@ -25,7 +25,8 @@
 }  
 
 .proyecto_foto{
-  width: 90%;
+  margin-top: 18px;
+  width: 100%;
   height: 100%;
 }  
 
