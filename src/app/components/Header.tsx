@@ -7,7 +7,9 @@ const Header = () => {
     <>
       <header className='bg-blue-700 h-20 flex  items-center justify-between'>
       <div className='ml-[6px] font-bold cursor-pointer text-white'>
+         <Link href={"/"}>
           <p >Stefano Zevallos</p>
+         </Link> 
         </div>
         <div className='ml-[60px] w-[80px]'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-[45px] h-[45px]">

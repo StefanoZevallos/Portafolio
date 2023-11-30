@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import styles from "@/app/styles/rutaproyecto.module.css"
 import Image from 'next/image'
@@ -13,10 +14,10 @@ const ProyectoAppCanciones = () => {
           Puedes guardar el artista y nombre de canción. Para luego poder escucharlo en tu reproductor favorito.
         </p>
         <h2 className={styles.titulo}>Logros Del Proyecto</h2>
-        <p className={styles.descripcion}>
+        <div className={styles.descripcion}>
          <li className='mb-3'> Funcionalidad de registro usuarios en el backend en la api y visualmente en el frontend, los usuarios de registran en una base de datos Postgres</li>
          <li> Funcionalidad de Inicio de Sesión en el backend en la api , y en el frontend. Se utilizo JWT para la validacion de usuarios en el backend.</li>   
-        </p>
+        </div>
 
 
         <h2 className={styles.titulo}>Tecnologías Frontend</h2>
